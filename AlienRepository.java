@@ -67,8 +67,8 @@ public class AlienRepository{
     // Constructor to initialize the repository
     public AlienRepository() {
     	 String url = "jdbc:mysql://localhost:3306/restdb";
-    	 String username = "rahul";
-    	 String password = "Iamwhoiam@0503";
+    	 String username = "username";
+    	 String password = "password";
     	 try {
     		 Class.forName("com.mysql.cj.jdbc.Driver");
     		 con = DriverManager.getConnection(url, username, password);
